@@ -67,7 +67,7 @@ namespace Tp1WebApp.Controllers
 
                     if (archivoFoto.Length > 0)
                     {
-                        var pathDestino = Path.Combine(env.WebRootPath, "images\\foto");
+                        var pathDestino = Path.Combine(env.WebRootPath, "images/foto");
                         //Generar nombre aleatorio de la imagen
                         var archivoDestino = Guid.NewGuid().ToString();//Obtiene el nombre del archivo
                         archivoDestino = archivoDestino.Replace("-", "");//Reemplaza los guion medio
