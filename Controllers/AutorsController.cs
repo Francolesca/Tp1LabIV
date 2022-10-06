@@ -79,9 +79,7 @@ namespace Tp1WebApp.Controllers
                             archivoFoto.CopyTo(filestream);
                             autor.foto = archivoDestino;
                         }
-
                     }
-
                 }
                 _context.Add(autor);
                 await _context.SaveChangesAsync();
